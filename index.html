@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Forever</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Concert+One&family=Roboto:wght@700&display=swap" rel="stylesheet">
+</script>
+<style>
+    body{
+        font-family: 'Roboto', sans-serif;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('images/bg.jpg.jpg');
+    }
+    .left{
+        display: inline-block;
+        position: absolute;
+        left: 60px;
+        top: 20px;
+
+    }
+    .left img{
+        width: 130px;
+    }
+    .left div{
+        text-align: center;
+        line-height: 19px;
+        font-size: 14px;
+    }
+    .mid{
+        display: block;
+        width: 50%;
+        margin: 29px auto;
+
+    }
+    .right{
+        position: absolute;
+        right: 34px;
+        top: 43px;
+        display: inline-block;
+
+
+    }
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li{
+        display: inline-block;
+        font-size: 22px;
+
+    }
+    .navbar li a{
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+    .navbar li a:hover{
+        text-decoration: underline;
+        color: rgb(157, 216, 235);
+    }
+    .btn{
+        font-family: 'Roboto', sans-serif;
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    .btn:hover{
+        background-color: grey;
+    }
+    .container{
+        border: 5px solid white;
+        margin: 190px 60px ;
+        padding: 50px;
+        width: 39%;
+        border-radius: 28px;
+    }
+    .form-group input{
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+        display: block;
+        width: 500px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 11px auto;
+        font-size: 25px;
+        border-radius: 8px;
+    }
+    .container h1{
+        text-align: center;
+    }
+    .container button{
+        display: block;
+        width: 100%;
+        margin: auto;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="images/Personal Trainer Fitness Logo.png" alt="">
+            <div> FITNESS FOREVER </div>
+
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="./others/aboutus.html">About Us</a></li>
+                <li><a href="./others/fc.html">Fitness Calculator</a></li>
+                <li><a href="./others/contactus.html">Contact Us</a></li>
+            </ul>
+
+        </div>
+        <div class="right">
+            <button class="btn">Call Us</button><button class="btn">Email Us</button>
+
+        </div>
+
+
+    </header>
+    <div class="container">
+        <h1>JOIN THE BEST GYM IN JAIPUR</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Name"
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Age"
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Gender"
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Locality"
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+
+</body>
+</html>
